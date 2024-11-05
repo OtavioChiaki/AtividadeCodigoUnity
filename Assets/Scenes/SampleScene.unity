@@ -13699,6 +13699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1808888562}
   - component: {fileID: 1808888563}
+  - component: {fileID: 1808888564}
   m_Layer: 0
   m_Name: Green_0 (4)
   m_TagString: Untagged
@@ -13773,6 +13774,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1808888564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808888561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19287d890eda4145939ed09c6dc1611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPocao: 1
 --- !u!1 &1813007211
 GameObject:
   m_ObjectHideFlags: 0
@@ -14041,6 +14055,8 @@ GameObject:
   - component: {fileID: 1818756176}
   - component: {fileID: 1818756177}
   - component: {fileID: 1818756178}
+  - component: {fileID: 1818756179}
+  - component: {fileID: 1818756180}
   m_Layer: 0
   m_Name: doc_idle_anim_f0
   m_TagString: Untagged
@@ -14222,13 +14238,39 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818756170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d69e51ce4f67334eb5027d37647790b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerVivo: 1
   powerUp: 1
+--- !u!114 &1818756179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19287d890eda4145939ed09c6dc1611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPocao: 0
+--- !u!114 &1818756180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ba6750f3c56934d96ebae014087234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PontosDaMissao: 49
 --- !u!1 &1825681408
 GameObject:
   m_ObjectHideFlags: 0
