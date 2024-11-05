@@ -14040,6 +14040,7 @@ GameObject:
   - component: {fileID: 1818756175}
   - component: {fileID: 1818756176}
   - component: {fileID: 1818756177}
+  - component: {fileID: 1818756178}
   m_Layer: 0
   m_Name: doc_idle_anim_f0
   m_TagString: Untagged
@@ -14195,7 +14196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818756170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3ea463e2ee4118499e48ce034cbc11f, type: 3}
   m_Name: 
@@ -14208,12 +14209,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818756170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d475c4b9556e6241b1a93c5e4c6fb1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   powerUp: 0
+--- !u!114 &1818756178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d69e51ce4f67334eb5027d37647790b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerVivo: 1
+  powerUp: 1
 --- !u!1 &1825681408
 GameObject:
   m_ObjectHideFlags: 0
