@@ -14052,6 +14052,7 @@ GameObject:
   - component: {fileID: 1818756179}
   - component: {fileID: 1818756180}
   - component: {fileID: 1818756181}
+  - component: {fileID: 1818756182}
   m_Layer: 0
   m_Name: doc_idle_anim_f0
   m_TagString: Untagged
@@ -14195,7 +14196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818756170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ccbb2bc6a404af4d9f61a59d7e314c4, type: 3}
   m_Name: 
@@ -14273,16 +14274,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818756170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd822bc66d125724eb4fc18c7840a9cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Guerreiro: 0
   Mago: 0
-  Monge: 1
-  Druida: 0
+  Monge: 0
+  Druida: 1
   Ladino: 0
+--- !u!114 &1818756182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdbeb87fa73a2b242a1cf65bddae1199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faces: 5
 --- !u!1 &1825681408
 GameObject:
   m_ObjectHideFlags: 0
