@@ -2222,8 +2222,6 @@ GameObject:
   - component: {fileID: 277952776}
   - component: {fileID: 277952775}
   - component: {fileID: 277952774}
-  - component: {fileID: 277952778}
-  - component: {fileID: 277952779}
   m_Layer: 0
   m_Name: big_zombie_run_anim_f0
   m_TagString: Untagged
@@ -2360,30 +2358,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &277952778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277952773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b71680e206d394f48b3f77353de04c95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &277952779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277952773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a65a62faaddb5fa4da4ac9923f907f55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &289304670
 GameObject:
   m_ObjectHideFlags: 0
@@ -9135,7 +9109,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1143234023}
   - component: {fileID: 1143234024}
-  - component: {fileID: 1143234025}
   m_Layer: 0
   m_Name: Green_0 (98)
   m_TagString: Untagged
@@ -9210,18 +9183,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1143234025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143234022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3bf6cf7b9845fe46ab840c0e846991b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1169371489
 GameObject:
   m_ObjectHideFlags: 0
@@ -13693,7 +13654,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1808888562}
   - component: {fileID: 1808888563}
-  - component: {fileID: 1808888564}
   m_Layer: 0
   m_Name: Green_0 (4)
   m_TagString: Untagged
@@ -13768,19 +13728,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1808888564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808888561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a19287d890eda4145939ed09c6dc1611, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemPocao: 1
 --- !u!1 &1813007211
 GameObject:
   m_ObjectHideFlags: 0
@@ -14053,6 +14000,9 @@ GameObject:
   - component: {fileID: 1818756180}
   - component: {fileID: 1818756181}
   - component: {fileID: 1818756182}
+  - component: {fileID: 1818756185}
+  - component: {fileID: 1818756184}
+  - component: {fileID: 1818756183}
   m_Layer: 0
   m_Name: doc_idle_anim_f0
   m_TagString: Untagged
@@ -14297,6 +14247,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faces: 5
+--- !u!114 &1818756183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5287c7e4444a65468fdb2f7aaf4d423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoItem: 
+  moeda: 10
+  escudo: 0
+  pocaoVida: 0
+--- !u!114 &1818756184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f75ab301589a3f4ba48c837529b550a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placarTimeA: 0
+  placarTimeB: 0
+--- !u!114 &1818756185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818756170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 829b1aec0d6f4904994097ea0ea2c126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dias: 0
+  horas: 0
+  segundos: 0
 --- !u!1 &1825681408
 GameObject:
   m_ObjectHideFlags: 0
