@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Exercicio01 : MonoBehaviour
 {
-    int x = 0; //While
-    int y = 10; //DoWhile
+    
 
     List<int> nums = new List<int>();
     void Start()
