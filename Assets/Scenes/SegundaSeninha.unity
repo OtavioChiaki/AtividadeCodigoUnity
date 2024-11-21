@@ -986,6 +986,8 @@ GameObject:
   - component: {fileID: 1472933538}
   - component: {fileID: 1472933539}
   - component: {fileID: 1472933540}
+  - component: {fileID: 1472933541}
+  - component: {fileID: 1472933542}
   m_Layer: 0
   m_Name: char_walk_right
   m_TagString: Untagged
@@ -1172,6 +1174,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pontuacao: 0
+--- !u!114 &1472933541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472933532}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f676028026998545a13fdca9812fbac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificuldade: 0
+--- !u!114 &1472933542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472933532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a26ee34318af94dbac0ec711123b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1667813468
 GameObject:
   m_ObjectHideFlags: 0
